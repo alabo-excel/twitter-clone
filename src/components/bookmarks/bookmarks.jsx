@@ -1,17 +1,19 @@
 import "./bookmarks.css";
 import { play, comment, retweet, heart, share, more } from "./icons";
+import { Helmet } from 'react-helmet';
 
 const Bookmarks = () => {
   return (
     <div className="home">
+      <Helmet>
+        <title>Bookmarks/Twitter</title>
+      </Helmet>
       <div className="card">
         <div>
           <h2>Bookmarks</h2>
           <p className="username-small">@alaboExcel</p>
         </div>
-        <div>
-            {more}
-        </div>
+        <div>{more}</div>
       </div>
       <div className="card">
         <div className="pics">

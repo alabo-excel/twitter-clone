@@ -1,9 +1,13 @@
 import "./home.css";
-import { play, comment, retweet, heart, share, star } from "./icons";
+import { play, comment, retweet, heart, share, star } from "../bookmarks/icons";
+import { Helmet } from 'react-helmet';
 
 const Home = () => {
   return (
     <div className="home">
+      <Helmet>
+        <title>Home/Twitter</title>
+      </Helmet>
       <div className="card">
         <div>
           <h2>Home</h2>

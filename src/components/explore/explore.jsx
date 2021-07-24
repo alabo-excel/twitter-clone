@@ -1,8 +1,13 @@
 import "./explore.css";
-import {more, setting} from './icons'
+import { more, setting } from "./icons";
+import { Helmet } from "react-helmet";
+
 const Explore = () => {
   return (
     <div className="explore">
+      <Helmet>
+        <title>Explore/Twitter</title>
+      </Helmet>
       <div className="form">
         <input type="text" placeholder="Search Twitter" />
       </div>
@@ -19,7 +24,7 @@ const Explore = () => {
             <p className="title">For Lagos</p>
             <span className="sub">6,788 Tweets</span>
           </div>
-            {more}
+          {more}
         </div>
         <div className="card">
           <div>
@@ -27,7 +32,7 @@ const Explore = () => {
             <p className="title">For Lagos</p>
             <span className="sub">6,788 Tweets</span>
           </div>
-            {more}
+          {more}
         </div>
         <div className="card">
           <div>
@@ -35,7 +40,7 @@ const Explore = () => {
             <p className="title">For Lagos</p>
             <span className="sub">6,788 Tweets</span>
           </div>
-            {more}
+          {more}
         </div>
         <div className="card">
           <div>
@@ -43,7 +48,7 @@ const Explore = () => {
             <p className="title">For Lagos</p>
             <span className="sub">6,788 Tweets</span>
           </div>
-            {more}
+          {more}
         </div>
         <div className="card">
           <div>
@@ -51,7 +56,7 @@ const Explore = () => {
             <p className="title">For Lagos</p>
             <span className="sub">6,788 Tweets</span>
           </div>
-            {more}
+          {more}
         </div>
         <div className="more">
           <p>Show more</p>
