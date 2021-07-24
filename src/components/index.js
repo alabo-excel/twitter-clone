@@ -1,2 +1,5 @@
 export {default as LeftPane } from './leftPane/leftPane'
 export {default as RightPane } from './rightPane/rightPane'
+export {default as Home } from './home/home'
+export {default as Bookmarks } from './bookmarks/bookmarks'
+export {default as Explore } from './explore/explore'

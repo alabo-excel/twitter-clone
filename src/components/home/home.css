@@ -1,0 +1,35 @@
+.home{
+    background-color: #15202b;
+    border: 1px solid;
+    border-color: rgb(56, 68, 77);
+}
+.title{
+    font-size: 15px;
+    font-family: 500;
+}
+.username{
+    margin-left: 10px;
+}
+.pics{
+    margin-top: 20px;
+    border-radius: 100%;
+}
+.pics img{
+    border-radius: 100%;
+}
+.home svg{
+    width: 20px;
+}
+.icons{
+    color: rgb(136, 153, 166);
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0px!important;
+    margin-bottom: -15px!important;
+}
+.count{
+    display: flex;
+}
+.count span{
+    padding: 5px;
+}
